@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#banners .container{
+    padding: 0;
+}
+
+#cabecalho{
+    background-color: #333;
+}
+
+#cabecalho .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho #logo{
+    width: 30px;
+}
+
+#cabecalho #menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+#cabecalho #menu ul li a{
+    text-decoration: none;
+    color: #999;
+    padding: 20px;
+    display: block;
+    transition: background-color 0.3s linear;
+}
+
+#cabecalho #menu ul li a:hover{
+    background-color: #0071e3;
+    color: #fff;
+}
+
+#banners{
+    background-color: #000;
+}
+
+#banners .bx-wrapper{
+    border: none;
+    box-shadow: none;
+}
+
+/*** Corpo ***/
+
+    /* Plus */
+#corpo .container h1{
+    margin: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#corpo .container h2{
+    font-size: 30px;
+    text-decoration-line: underline;
+    margin-bottom: 10px;
+}
+
+#corpo .container h3{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+#corpo .container .plus img{
+    width: 550px;
+    float: left;
+    margin: 25px;
+}
+
+#corpo .container .plus ul{
+    padding: 5px;
+    background-color: #999;
+}
+
+#corpo .container .plus ul li{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 25px;
+}
+
+#corpo .container .plus h3{
+    margin-top: 20px;
+}
+
+#corpo .container .plus p{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+#corpo .container .plus .video{
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+
+    /* Xbox */
+
+#corpo .container .xbox h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#corpo .container .xbox h3{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#corpo .container .xbox img{
+    width: 800px;
+    margin-left: 15%;
+}
+
+#corpo .container .xbox p{
+    margin: 50px;
+    font-size: 25px;
+}
+
+#corpo .container .xbox .nota{
+    border: 5px solid;
+    background-color: #2b961f;
+    padding: 5px;
+}
+
+    /* Nintendo */
+
+#corpo .container .nintendo h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+#corpo .container .nintendo img{
+    width: 800px;
+    margin-left: 15%;
+    margin-bottom: 50px;
+}
+
+#corpo .container .nintendo p{
+    font-size: 25px;
+}
+
+/*** Plataforma ***/
+
+#plataforma .container h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+
+#plataforma .container p{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+#plataforma .container img{
+    width: 800px;
+    margin-left: 15%;
+    margin-bottom: 50px;
+}
+
+#plataforma .container h2{
+    font-size: 30px;
+}
+
+#plataforma .container h3{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#plataforma .container .video{
+    margin-left: 25%;
+    padding: 20px;
+}
+
+/*** MOBA ***/
+
+#moba .container h1{
+    font-size: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+#moba .container p{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+#moba .container img{
+    width: 400px;
+    margin-top: 30px;
+}
+
+#moba .container .imagens-dota2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+#moba .container .funcionalidade h2{
+    margin-top: 50px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#moba .container .funcionalidade img{
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#moba .container .exemplos h3{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#moba .container .exemplos .video{
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+
+/*** RPG ****/
+#rpg .container h1{
+    font-size: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+#rpg .container h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+#rpg .container h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#rpg .container p{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#rpg .container img{
+    width: 400px;
+}
+
+#rpg .container .imagens-rpg{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;   
+}
+
+#rpg .container .video{
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+
+/*** Estratégia ***/
+
+#estrategia .container h1{
+    font-size: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+#estrategia .container h2{
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+#estrategia .container h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#estrategia .container p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#estrategia .container img{
+    width: 800px;
+    margin-left: 20%;
+    padding: 25px;
+}
+
+#estrategia .container .video{
+    margin-left: 25%;
+    margin-bottom: 30px;
+}
+
+/*** Saiba Mais ***/
+
+#saiba-mais h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 50px;
+}
+
+#saiba-mais .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+#saiba-mais .container img{
+    width: 400px;
+    
+}
+
+#saiba-mais .container h3{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+
+/*** Rodapé ***/
+
+#rodape{
+    background-color: #000;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+#rodape span{
+    display: block;
+    text-align: center;
+    color: #ccc;
+}
