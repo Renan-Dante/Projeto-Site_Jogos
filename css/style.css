@@ -10,8 +10,17 @@
     padding: 0 15px;
 }
 
-#banners .container{
-    padding: 0;
+.container p{
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.container h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 #cabecalho{
@@ -25,7 +34,7 @@
 }
 
 #cabecalho #logo{
-    width: 30px;
+    width: 50px;
 }
 
 #cabecalho #menu ul li{
@@ -73,6 +82,7 @@
 #corpo .container h3{
     font-size: 25px;
     margin-bottom: 25px;
+    text-align: left;
 }
 
 #corpo .container .plus img{
@@ -97,15 +107,10 @@
     margin-top: 20px;
 }
 
-#corpo .container .plus p{
-    font-size: 25px;
-    margin-bottom: 50px;
-    text-align: justify;
-}
-
 #corpo .container .plus .video{
     margin-left: 25%;
     margin-bottom: 50px;
+    margin-top: 25px;
 }
 
     /* Xbox */
@@ -123,12 +128,7 @@
 #corpo .container .xbox img{
     width: 800px;
     margin-left: 15%;
-}
-
-#corpo .container .xbox p{
-    margin: 50px;
-    font-size: 25px;
-    text-align: justify;
+    margin-bottom: 50px;
 }
 
 #corpo .container .xbox .nota{
@@ -142,17 +142,13 @@
 #corpo .container .nintendo h2{
     font-size: 40px;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 #corpo .container .nintendo img{
     width: 800px;
     margin-left: 15%;
     margin-bottom: 50px;
-}
-
-#corpo .container .nintendo p{
-    font-size: 25px;
-    text-align: justify;
 }
 
 /*** Plataforma ***/
@@ -163,16 +159,11 @@
     padding: 30px;
 }
 
-#plataforma .container p{
-    font-size: 25px;
-    margin-bottom: 50px;
-    text-align: justify;
-}
-
 #plataforma .container img{
     width: 800px;
     margin-left: 15%;
     margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 #plataforma .container h2{
@@ -262,11 +253,6 @@
     margin-bottom: 25px;
 }
 
-#rpg .container p{
-    font-size: 25px;
-    margin-bottom: 10px;
-    text-align: justify;
-}
 #rpg .container img{
     width: 400px;
 }
@@ -295,19 +281,6 @@
     margin-top: 100px;
     margin-bottom: 50px;
     text-decoration: underline;
-}
-
-#estrategia .container h3{
-    text-align: center;
-    font-size: 30px;
-    margin-top: 50px;
-    margin-bottom: 25px;
-}
-
-#estrategia .container p{
-    font-size: 25px;
-    margin-bottom: 20px;
-    text-align: justify;
 }
 
 #estrategia .container img{
@@ -343,6 +316,9 @@
 #saiba-mais .container h3{
     margin-top: 5px;
     margin-bottom: 30px;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 5px;
 }
 
 
