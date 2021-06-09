@@ -100,6 +100,7 @@
 #corpo .container .plus p{
     font-size: 25px;
     margin-bottom: 50px;
+    text-align: justify;
 }
 
 #corpo .container .plus .video{
@@ -127,6 +128,7 @@
 #corpo .container .xbox p{
     margin: 50px;
     font-size: 25px;
+    text-align: justify;
 }
 
 #corpo .container .xbox .nota{
@@ -150,6 +152,7 @@
 
 #corpo .container .nintendo p{
     font-size: 25px;
+    text-align: justify;
 }
 
 /*** Plataforma ***/
@@ -163,6 +166,7 @@
 #plataforma .container p{
     font-size: 25px;
     margin-bottom: 50px;
+    text-align: justify;
 }
 
 #plataforma .container img{
@@ -197,6 +201,7 @@
 #moba .container p{
     font-size: 25px;
     margin-bottom: 5px;
+    text-align: justify;
 }
 
 #moba .container img{
@@ -260,6 +265,7 @@
 #rpg .container p{
     font-size: 25px;
     margin-bottom: 10px;
+    text-align: justify;
 }
 #rpg .container img{
     width: 400px;
@@ -301,6 +307,7 @@
 #estrategia .container p{
     font-size: 25px;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 #estrategia .container img{
